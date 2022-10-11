@@ -1042,6 +1042,11 @@
   "resolved" "https://registry.npmjs.org/array-uniq/-/array-uniq-1.0.3.tgz"
   "version" "1.0.3"
 
+"array-uniq@1.0.2":
+  "integrity" "sha512-GVYjmpL05al4dNlKJm53mKE4w9OOLiuVHWorsIA3YVz+Hu0hcn6PtE3Ydl0EqU7v+7ABC4mjjWsnLUxbpno+CA=="
+  "resolved" "https://registry.npmjs.org/array-uniq/-/array-uniq-1.0.2.tgz"
+  "version" "1.0.2"
+
 "array-unique@^0.3.2":
   "integrity" "sha512-SleRWjh9JUud2wH1hPs9rZBZ33H6T9HOiL0uwGnGx9FpE6wKGyfWugmbkEOIs6qWrZhg0LWeLziLrEwQJhs5mQ=="
   "resolved" "https://registry.npmjs.org/array-unique/-/array-unique-0.3.2.tgz"
@@ -3836,6 +3841,19 @@
   "integrity" "sha512-iv7LhNVO047HzYR3InF6pUcUsPQiHTM1Qal51DcGSuZFBil1aBBWG5eHPNek7bvILMaYJ/8RU1e8w1AMdHmLQQ=="
   "resolved" "https://registry.npmjs.org/random-bytes/-/random-bytes-1.0.0.tgz"
   "version" "1.0.0"
+
+"randombytes@2.0.3":
+  "integrity" "sha512-lDVjxQQFoCG1jcrP06LNo2lbWp4QTShEXnhActFBwYuHprllQV6VUpwreApsYqCgD+N1mHoqJ/BI/4eV4R2GYg=="
+  "resolved" "https://registry.npmjs.org/randombytes/-/randombytes-2.0.3.tgz"
+  "version" "2.0.3"
+
+"randomstring@^1.2.2":
+  "integrity" "sha512-9FByiB8guWZLbE+akdQiWE3I1I6w7Vn5El4o4y7o5bWQ6DWPcEOp+aLG7Jezc8BVRKKpgJd2ppRX0jnKu1YCfg=="
+  "resolved" "https://registry.npmjs.org/randomstring/-/randomstring-1.2.2.tgz"
+  "version" "1.2.2"
+  dependencies:
+    "array-uniq" "1.0.2"
+    "randombytes" "2.0.3"
 
 "range-parser@~1.2.1":
   "integrity" "sha512-Hrgsx+orqoygnmhFbKaHE6c296J+HTAQXoxEF6gNupROmmGJRoyzfG3ccAveqCBrwr/2yxQ5BVd/GTl5agOwSg=="
