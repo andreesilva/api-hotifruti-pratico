@@ -3,13 +3,11 @@ import Cidade from 'App/Models/Cidade'
 
 export default class CidadesController {
     public async index({ response }: HttpContextContract) {
-        /*
         const cidades = await Cidade.query().whereHas("estabelecimentos", (query) => {
             query.where("bloqueado", false);
         }).preload("estado");
-        */
 
-        return response.ok('Teste');
+        return response.ok(cidades);
     }
 
     public async Estabelecimentos({ params, response }: HttpContextContract) {
