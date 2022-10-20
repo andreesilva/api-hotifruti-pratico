@@ -15,13 +15,13 @@ export default class AuthController {
 
             let expira;
             switch (user.tipo) {
-                case "clientes":
+                case "cliente":
                     expira = "30days";
                     break;
-                case "estabelecimentos":
+                case "estabelecimento":
                     expira = "7days";
                     break;
-                case "adminis":
+                case "admin":
                     expira = "1days";
                     break;
                 default:
