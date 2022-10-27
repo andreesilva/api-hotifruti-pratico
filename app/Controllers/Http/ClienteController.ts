@@ -61,6 +61,13 @@ export default class ClienteController {
 
             await trx.commit();
 
+            return response.ok({
+            id:cliente.id,
+            nome:cliente.nome,
+            email:user.email,
+            telefone: cliente.telefone
+        });
+
         } catch (error) {
             await trx.rollback();
             return response.badRequest("Something in the request is wrong");

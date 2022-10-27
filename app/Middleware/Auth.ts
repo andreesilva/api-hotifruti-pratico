@@ -55,6 +55,8 @@ export default class AuthMiddleware {
       guardLastAttempted,
       this.redirectTo,
     )
+
+    
   }
 
   /**
